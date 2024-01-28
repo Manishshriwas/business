@@ -1,0 +1,11 @@
+.word-drop {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  
+    &.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

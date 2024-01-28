@@ -1,0 +1,45 @@
+.main{
+    padding: 9rem 0rem 5rem 0rem;
+    /* padding-top: 6rem; */
+    display: flex;
+    flex-direction: column;
+   
+    
+   
+}
+.main-heading{
+ padding-left: 43%;
+
+}
+.main iframe{
+    padding-top: 2rem;
+}
+
+  .contact-form{
+    max-width: 50rem;
+    margin: auto;
+    .contact-inputs{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        gap: 2rem;
+        .user-email{
+            height: 2cm;
+            font-size: 28px;
+           padding-left: 2rem;
+        }
+      
+    }
+  }
+  .submit-btn {
+    background-color: #59e8b4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

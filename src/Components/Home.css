@@ -1,0 +1,37 @@
+.main-image img{
+    
+    height: 80%;
+    width: 100%;
+}
+.text-on-image {
+    /* position: relative; */
+    top: 5cm;
+    left: 16px;
+    /* font-size: 30px; */
+    font-weight: 600;
+
+
+  
+ 
+    position: absolute;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 80px;
+  }
+  .text-on-image span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #080808;
+    text-transform: uppercase;
+    animation: text-on-image 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes text-on-image {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
